@@ -123,8 +123,8 @@ void drawBalls() {
   std::list<Ball> balls = arena.balls();
   int size = balls.size();
   for (Ball const& b : balls) {
-    spr.fillEllipse(b.x, b.y, b.radius, b.radius, b.color);
-    // tft.drawSmoothCircle(b.x, b.y, b.radius, b.color, TFT_BLACK);
+    // spr.fillEllipse(b.x, b.y, b.radius, b.radius, b.color);
+    spr.drawSmoothCircle(b.x, b.y, b.radius, b.color, TFT_BLACK);
     // Serial.printf(" -> (%d : %d), radius: %d, color: %d\n", b.x, b.y, b.radius, b.radius, b.color);
   }
   arena.update();
