@@ -38,7 +38,8 @@ Button leftButton(6);
 Button rightButton(7);
 
 TFT_eSPI tft = TFT_eSPI();
-TFT_eSprite spr = TFT_eSprite(&tft);  // Declare Sprite object "spr" with pointer to "tft" object
+// screen buffer for smooth rendering without flickering
+TFT_eSprite spr = TFT_eSprite(&tft);
 
 void setup() {
   pinMode(PWR_ON, OUTPUT);
