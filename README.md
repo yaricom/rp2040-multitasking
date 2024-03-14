@@ -26,8 +26,8 @@ https://github.com/earlephilhower/arduino-pico/releases/download/global/package_
 ## TFT_eSPI library
 
 1. Clone [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI/tree/master) repository
-2. Copy files from repository into `libraries` directory inside of the Arduino sketches directory
-3. Edit file `User_Setup_Select.h` to use correct driver for the Lilygo T-Display RP2040 (ST7789 on SPI bus with 135x240 TFT) 
+2. Copy files from repository into `libraries/TFT_eSPI` directory inside of the Arduino sketches directory
+3. Edit the file `libraries/TFT_eSPI/User_Setup_Select.h` to use correct driver for the Lilygo T-Display RP2040 (ST7789 on SPI bus with 135x240 TFT) 
 as following:
   - uncomment the line `#include <User_Setups/Setup137_LilyGo_TDisplay_RP2040.h>` 
   - comment out the line `#include <User_Setup.h>`.
