@@ -16,7 +16,9 @@ The following dependecies should be installed:
 You can install Earle Philhower's board package using additional boards manager of Arduino IDE as following (MacOS):
 1. Start the Arduino IDE and go to `Arduino IDE->Settings`.
 2. At the bottom in the "Additional boards manager URLs" field type link to the board package repository:
-```https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json```
+```shell
+https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json
+```
 3. Go `Tools->Boards manager` in the IDE menu
 4. Type 'pico' in the search box and select "Add"
 5. Make sure to install version `3.2.2` **not higher**, because the latest versions doesn't work properly with TFT_eSPI library
