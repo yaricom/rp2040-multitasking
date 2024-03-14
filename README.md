@@ -8,8 +8,8 @@ using [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI/tree/master) library as a di
 
 The following dependecies should be installed:
 1. [Pico board package](https://github.com/earlephilhower/arduino-pico) by Earle Philhower
-2. [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI/tree/master) by Bodmer
-3. [SafeString library](https://github.com/PowerBroker2/SafeString) by Matthew Ford
+2. [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI/tree/master) library by Bodmer
+3. [SafeString](https://github.com/PowerBroker2/SafeString) library by Matthew Ford
 
 The installation instructions for each dependency provided below.
 
