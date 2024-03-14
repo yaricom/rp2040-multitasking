@@ -7,10 +7,11 @@ It was made for [LiLyGO T-Display RP2040](https://github.com/Xinyuan-LilyGO/LILY
 using [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI/tree/master) library as a display driver.
 
 The following dependecies should be installed:
-1. [Earle Philhower's board package](https://github.com/earlephilhower/arduino-pico) according to instructions below
-2. [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI/tree/master) library according to instructions below
+1. [Earle Philhower's board package](https://github.com/earlephilhower/arduino-pico)
+2. [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI/tree/master) by Bodmer
 3. [SafeString library](https://github.com/PowerBroker2/SafeString) by Matthew Ford
 
+The installation instructions for each dependency provided below.
 
 ### Earle Philhower's board package
 
