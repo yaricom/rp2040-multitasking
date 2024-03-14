@@ -9,9 +9,10 @@ using [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI/tree/master) library as a di
 The following dependecies should be installed:
 1. [Earle Philhower's board package](https://github.com/earlephilhower/arduino-pico) according to instructions below
 2. [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI/tree/master) library according to instructions below
+3. [SafeString library](https://github.com/PowerBroker2/SafeString) by Matthew Ford
 
 
-## Earle Philhower's board package
+### Earle Philhower's board package
 
 You can install Earle Philhower's board package using additional boards manager of Arduino IDE as following (MacOS):
 1. Start the Arduino IDE and go to `Arduino IDE->Settings`.
@@ -23,7 +24,7 @@ https://github.com/earlephilhower/arduino-pico/releases/download/global/package_
 4. Type 'pico' in the search box and select "Add"
 5. Make sure to install version `3.2.2` **not higher**, because the latest versions doesn't work properly with TFT_eSPI library
 
-## TFT_eSPI library
+### TFT_eSPI library
 
 1. Clone [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI/tree/master) repository
 2. Copy files from repository into `libraries/TFT_eSPI` directory inside of the Arduino sketches directory
@@ -31,3 +32,7 @@ https://github.com/earlephilhower/arduino-pico/releases/download/global/package_
 as following:
   - uncomment the line `#include <User_Setups/Setup137_LilyGo_TDisplay_RP2040.h>` 
   - comment out the line `#include <User_Setup.h>`.
+
+### SafeString library
+
+Can be installed using `Tools->Manage Libraries..` and search for `SafeString`.
